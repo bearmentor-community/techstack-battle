@@ -2,8 +2,16 @@
 
 Tech Stack Battle (Perbandingan Tech Stack).
 
-- [x] Only cover the technologies and tools
-- [x] Not about the concepts (programming, OOP, FP, DBMS, SQL, NoSQL, DSL, etc)
+- [x] Only cover the technologies and tools.
+- [x] Pros and cons, what suits best or usual cases.
+- [x] Not about the core concepts.
+  - computer science, software architecture, programming, system design, OOP, FP, async, concurrency, DBMS, SQL, NoSQL, DSL, etc
+- [x] Would try to not only about the web.
+- [x] Let's discuss together, correction if there's something wrong or missing.
+
+## Contribute
+
+Want to contribute or update things? Open a [Pull Request](https://github.com/catamyst-community/techstack-battle/compare).
 
 ## Table of Contents
 
@@ -18,7 +26,10 @@ Tech Stack Battle (Perbandingan Tech Stack).
     - [Web Frontend](#web-frontend)
     - [Web Backend](#web-backend)
     - [Web Full Stack or Hybrid](#web-full-stack-or-hybrid)
+    - [Web Tooling, State Management](#web-tooling-state-management)
+    - [Web Bundler, Transpiler, Tool](#web-bundler-transpiler-tool)
     - [Web API](#web-api)
+    - [Web Testing](#web-testing)
     - [Web Deployment](#web-deployment)
     - [Database](#database)
     - [Database ORM](#database-orm)
@@ -44,6 +55,9 @@ Tech Stack Battle (Perbandingan Tech Stack).
     - [C++](#c-1)
     - [C\#](#c-2)
     - [Objective-C](#objective-c)
+    - [OCaml](#ocaml)
+    - [ReScript](#rescript)
+    - [Prolog](#prolog)
     - [R](#r)
   - [Misc](#misc)
     - [DevOps](#devops)
@@ -64,16 +78,23 @@ Tech Stack Battle (Perbandingan Tech Stack).
   - iOS
 - Microsoft
   - Windows
+  - Windows Phone
 - Linux
   - Android
   - Debian
     - Ubuntu
+      - Kubuntu
+      - Xubuntu
     - Linux Mint
-    - elementaryOS
+    - elementary OS
   - Fedora
+  - RedHat
+  - CentOS
+  - OpenSUSE
   - Arch
     - Manjaro
-  - ...
+  - [Zorin OS](https://zorin.com/os) - NEW?
+  - [NixOS](https://nixos.org) - HYPE
 
 ### Tooling
 
@@ -90,7 +111,15 @@ Tech Stack Battle (Perbandingan Tech Stack).
   - Vim
   - Emacs
   - nano
-  - Atom - Honorable mention
+  - Atom - HONORABLE MENTION
+  - Brackets - DED
+  - ...
+- Online Code Editor
+  - CodePen
+  - CodeSandbox
+  - StackBlitz
+  - Glitch
+  - GitHub Codespaces
   - ...
 - Terminal
   - Hyper
@@ -213,6 +242,29 @@ Tech Stack Battle (Perbandingan Tech Stack).
 - C#
   - ASP.NET Core
 
+### Web Tooling, State Management
+
+- Jotai
+- Zustand
+- Redux
+- Recoil
+- XState
+
+### Web Bundler, Transpiler, Tool
+
+- ESBuild
+- Vite
+- Webpack
+- Turbopack - NEW
+- Babel
+- swc
+- Terser
+- Parcel
+- Rollup
+- Gulp - DED
+- Grunt - DED
+- Yeoman - DED
+
 ### Web API
 
 - REST API
@@ -220,6 +272,20 @@ Tech Stack Battle (Perbandingan Tech Stack).
 - WebSocket
 - tRPC
 - gRPC
+
+### Web Testing
+
+- Jest
+- Vitest
+- testing-library
+- MSW (Mock Service Worker)
+- Cypress
+- Playwright
+- Selenium - AVOID
+- Mocha - DED
+- Chai - DED
+- Sinon - DED
+- Jasmine - DED
 
 ### Web Deployment
 
@@ -239,16 +305,27 @@ Tech Stack Battle (Perbandingan Tech Stack).
   - Railway.app
   - Heroku
   - Deno Deploy
+- CI/CD
+  - GitHub Actions
+  - Circle CI
+  - Jenkins
+  - Travis
 
 ### Database
 
 - SQL
+- SQLite
 - MySQL
   - MariaDB
+  - PlanetScale
 - PostgreSQL
-- CockroachDB
+  - Supabase
 - MongoDB
+  - MongoDB Atlas
+- CockroachDB
 - Redis
+- Apache CouchDB
+- RxDB
 
 ### Database ORM
 
@@ -261,6 +338,11 @@ Tech Stack Battle (Perbandingan Tech Stack).
   - Mongoose
 - Java
   - Hibernate
+- Python
+  - SQLAlchemy
+  - PonyORM
+- Ruby
+  - ActiveRecord
 
 ### Database/Backend as a Service
 
@@ -286,6 +368,7 @@ Tech Stack Battle (Perbandingan Tech Stack).
   - React Native
   - Ionic
   - NativeScript
+- Apache Cordova
 - Dart
   - Flutter
 
@@ -318,45 +401,90 @@ Tech Stack Battle (Perbandingan Tech Stack).
 - TypeScript
 - Dart
 - Elm
+- CoffeeScript - DED
 
 ### PHP
 
+- ...
+
 ### Java
 
+- ...
+
 ### Kotlin
+
+- ...
 
 ### Scala
 
 - Apache Spark
+- ...
 
 ### Python
 
 - PyPi
+- ...
 
 ### Golang
 
+- ...
+
 ### Haskell
+
+- ...
 
 ### Rust
 
+- ...
+
 ### Elixir
+
+- ...
 
 ### C
 
+- ...
+
 ### C++
+
+- ...
 
 ### C\#
 
+- ...
+
 ### Objective-C
+
+- ...
+
+### OCaml
+
+- ...
+
+### ReScript
+
+- ...
+
+### Prolog
+
+- ...
 
 ### R
 
+- ...
+
 ## Misc
+
+- ...
 
 ### DevOps
 
+- ...
+
 ### QA
+
+- ...
 
 ### Blockchain
 
-- ???
+- ...
