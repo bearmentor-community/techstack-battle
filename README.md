@@ -146,12 +146,12 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 - Git
   - GitHub
   - GitLab
-  - Bitbucket
+  - Atlassian Bitbucket
   - Gitea
   - ...
 - Project/Product Management
   - Linear
-  - Jira
+  - Atlassian Jira
   - Trello
   - Asana
   - Basecamp
@@ -164,6 +164,9 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 - reStructuredText (RST)
 - Textile
 - AsciiDoc
+- LaTeX
+- Mermaid.js
+- Pandoc
 
 ### Web Runtime
 
@@ -181,52 +184,82 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 
 - HTML
 - CSS
+  - Sass 
+  - Stylus - DED?
+  - Less - ZOMBIE
   - Tailwind CSS
+    - Tailwind UI
+    - daisyUI
     - UnoCSS
     - Master CSS
   - Bootstrap
   - Bulma
+  - Foundation Framework
+    - Foundation for Emails
+  - Semantic UI
+  - UIkit
+  - Pure CSS
 - JavaScript
   - TypeScript
+  - npm / yarn / pnpm
+- JS Library
+  - jQuery - HONORABLE DED
+    - Zepto
 - React
   - Routing
     - React Router
     - wouter
   - Data fetching
-    - TanStack React Query
     - SWR
+    - TanStack React Query
+    - urql / URQL
+    - Apollo GraphQL Client
   - UI components
     - Ariakit
     - Headless UI
     - Radix UI
+  - CSS-in-JS
+    - styled-components
+    - emotion
+    - stitches
   - Design system
     - MUI
     - Chakra UI
+  - Ant Design
 - Preact
 - Vue
   - Routing
     - Vue Router
   - Headless UI
+  - Design system
+    - Vuetify
 - Angular
 - Svelte
-- Solid
+- SolidJS
 - Lit
+- Qwik
 
-### Web Backend
+### Web Backend -> REST API / Microframework
 
 - Node.js
   - Express
+    - Feathers
+  - NestJS
   - Hapi
+  - Fastify
+  - Koa
+  - Restify
 - PHP
-  - Laravel
-  - Symphony
-  - Code Igniter
+  - Symfony
+  - Slim Framework
+  - CakePHP
+  - Flight
 - Java
-  - Play
-  - Spring
-    - Spring Boot
 - Kotlin
+  - Ktor
+  - Javalin
 - Python
+  - FastAPI
   - Flask
   - ...
 - Ruby
@@ -234,112 +267,187 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
   - ...
 - Golang
   - Gin
+  - Echo
+  - Revel
   - ...
 - Haskell
+  - Yesod Web Framework
+  - Snap
+  - Spock
 - Rust
+  - Rocket
+  - Actix
+  - Yew
+  - Salvo
 - Elixir
+  - Phoenix
+- Erlang
 - C
 - C++
 - C#
 - Objective-C
 - Swift
+  - Vapor
+  - Perfect
 
-### Web Full Stack or Hybrid
+### Web Full Stack or Hybrid or misc
 
 - JavaScript/TypeScript/Node.js/Deno
-  - Remix
-  - Next.js
-  - Gatsby
+  - React  
+    - Next.js
+    - Remix
+    - Gatsby
+    - RedwoodJS
   - Astro
   - Fresh
+  - Meteor - DED?
+  - Vue
+    - Nuxt
+  - Svelte
+    - SvelteKit
+  - Solid
+    - SolidStart 
+- PHP
+  - Laravel
+  - Code Igniter
 - Ruby
   - Rails
 - Python
   - Django
 - Java
+  - Play
+  - Spring
+    - Spring Boot
+- Groovy
   - Grails
-- Java/Scala
+- Scala
   - Play
 - C#
-  - ASP.NET Core
+  - .NET / ASP.NET Core
+  - Xamarin
+  - Blazor
+- Golang
+  - Hugo
 
 ### Web Tooling, State Management
 
+- Redux
+  - RTK / Redux Toolkit
 - Jotai
 - Zustand
-- Redux
 - Recoil
 - XState
+  - Stately
+- Pinia
 
 ### Web Bundler, Transpiler, Tool
 
-- ESBuild
-- Vite
 - Webpack
 - Turbopack - NEW
-- Babel
-- swc
-- Terser
+- ESBuild
+- Vite
 - Parcel
 - Rollup
 - Gulp - DED
 - Grunt - DED
 - Yeoman - DED
+- Babel
+- SWC
+- Terser
 
 ### Web API
 
 - REST API
 - GraphQL
+  - Apollo GraphQL
 - WebSocket
+  - Socket.IO
 - tRPC
 - gRPC
 
+### Web API Documentation / Schema
+
+- Swagger
+- API Blueprint
+- GraphQL
+  - GraphiQL
+  - Stellate / GraphCDN
+- Apigee
+
 ### Web Testing
 
-- Jest
 - Vitest
+- Jest
 - testing-library
 - MSW (Mock Service Worker)
 - Cypress
 - Playwright
-- Selenium - AVOID
+- Selenium WebDriver - AVOID
 - Mocha - DED
 - Chai - DED
 - Sinon - DED
 - Jasmine - DED
+- Cucumber
+  - Cucumber.js
+
+### Web Library
+
+- Map
+  - Mapbox
+    - react-mapbox-gl
+  - Google Maps
+- WebGL / 3D
+  - Three.js
+    - React Three Fiber
+  - Babylon.js
+- 2D visualization
+  - D3.js
+  - Vega
+- Python
+  - Jupyter/Notebook
+- ...
 
 ### Web Deployment
 
-- Baremetal
+- Baremetal Server
 - VPS (Virtual Private Server)
   - Digital Ocean
   - Linode
-- IaaS (Infrastructure as a Service)
+  - Amazon Lightsail
+  - IDCloudHost
+  - Hostinger
+  - DewaWeb
+- IaaS (Infrastructure as a Service) / Cloud Computing / Cloud Native
   - Google Cloud Platform (GCP)
   - Amazon Web Services (AWS)
   - Microsoft Azure
   - Alibaba Cloud
+  - IBM Cloud
 - PaaS (Platform as a Service)
   - Vercel
   - Netlify
   - Railway.app
-  - Heroku
+  - Heroku - HONORABLE
+  - Fly.io
+  - Render.com
   - Deno Deploy
 - CI/CD
   - GitHub Actions
   - Circle CI
   - Jenkins
   - Travis
+  - Drone CI?
 
 ### Database
 
-- SQL
+- SQL vs NoSQL
 - SQLite
 - MySQL
   - MariaDB
   - PlanetScale
 - PostgreSQL
   - Supabase
+- Microsoft SQL Server
 - MongoDB
   - MongoDB Atlas
 - CockroachDB
@@ -350,11 +458,11 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 ### Database ORM
 
 - Node.js
-  - Prisma
+  - Prisma ORM - MySQL/PostgreSQL/MongoDB
   - TypeORM
   - Sequelize
   - Knex.js
-  - Bookshelf
+  - Bookshelf.js
   - Mongoose
 - Java
   - Hibernate
@@ -371,14 +479,22 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 - Strapi
 - Nhost
 - Kontenbase
-- Storyblok
+
+### Background Workers
+
+- Celery
+- Sidekiq
+- RabbitMQ
 
 ### CMS (Content Management System)
 
-- WordPress
+- Headless WordPress
 - Hygraph (GraphCMS)
-- PayloadCMS
+- Payload CMS
 - ButterCMS
+- Storyblok
+
+https://bejamas.io/discovery/headless-cms
 
 ### Mobile Android
 
@@ -407,6 +523,8 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 
 - JavaScript
   - Electron
+  - Tauri
+  - NW.js
 
 ### IoT
 
@@ -418,6 +536,7 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 
 ### JavaScript
 
+- npm / yarn / pnpm
 - TypeScript
 - Dart
 - Elm
@@ -500,9 +619,10 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 
 - ...
 
-## Misc
+## Game
 
-- ...
+- C#
+  - Unity
 
 ### DevOps
 
@@ -515,3 +635,4 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 ### Blockchain
 
 - ...
+
