@@ -16,6 +16,7 @@ Want to contribute or update things? Open a [Pull Request](https://github.com/ca
 ## Table of Contents
 
 - [Tech Stack Battle](#tech-stack-battle)
+  - [Contribute](#contribute)
   - [Table of Contents](#table-of-contents)
   - [References](#references)
   - [Ecosystem](#ecosystem)
