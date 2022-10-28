@@ -114,11 +114,14 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
     - WebStorm
     - PhpStorm
     - ...
+  - Sublime Text
   - Vim
+    - Neovim
   - Emacs
   - nano
-  - Atom - HONORABLE MENTION
+  - Atom - HONORABLE MENTION DED
   - Brackets - DED
+  - Notepad++ - ZOMBIE
   - ...
 - Online Code Editor
   - CodePen
@@ -126,6 +129,9 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
   - StackBlitz
   - Glitch
   - GitHub Codespaces
+  - JS Bin
+  - JSFidle
+  - Replit
   - ...
 - Terminal
   - Hyper
