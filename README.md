@@ -249,6 +249,9 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
   - Fastify
   - Koa
   - Restify
+  - GraphQL Yoga
+    - Pothos GraphQL Schema
+    - Nexus.js - DED
 - PHP
   - Symfony
   - Slim Framework
