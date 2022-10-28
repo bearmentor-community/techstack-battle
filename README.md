@@ -635,9 +635,14 @@ https://bejamas.io/discovery/headless-cms
 - C#
   - Unity
 
-### DevOps
+### Infra/DevOps
 
-- ...
+- Docker
+  - Kubernetes
+- Terraform
+- Ansible
+- Chef
+- Puppet
 
 ### QA
 
