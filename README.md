@@ -239,7 +239,15 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 - Lit
 - Qwik
 
-### Web Backend -> REST API / Microframework
+### Web API Client
+
+- cURL
+- HTTPie
+- Postman
+- Insomnia
+- Hoppscotch
+
+### Web Backend -> REST API / GraphQL / Microframework
 
 - Node.js
   - Express
