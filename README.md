@@ -2,16 +2,21 @@
 
 Tech Stack Battle (Perbandingan Tech Stack).
 
+- [x] Casual discussion.
 - [x] Only cover the technologies and tools.
 - [x] Pros and cons, what suits best or usual cases.
 - [x] Not about the core concepts.
-  - computer science, software architecture, programming, system design, OOP, FP, async, concurrency, DBMS, SQL, NoSQL, DSL, etc
+  - computer science, programming, software architecture, infrastructure, system design, OOP, FP, async, concurrency, DBMS, SQL, NoSQL, DSL, etc
 - [x] Would try to not only about the web.
 - [x] Let's discuss together, correction if there's something wrong or missing.
 
 ## Contribute
 
 Want to contribute or update things? [Fork this repo](https://github.com/catamyst-community/techstack-battle/fork) and open a [Pull Request](https://github.com/catamyst-community/techstack-battle/compare).
+
+## CodePolitan x Catamyst
+
+Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
 
 ## Table of Contents
 
@@ -68,7 +73,7 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 ## References
 
 - Catamyst Stack: <https://a.catamyst.com/stack>
-- Frontend Stack: <https://github.com/catamyst-community/catamyst-frontend-stack>
+- Frontend Stack: <https://github.com/catamyst-community/frontend-stack>
 
 ## Ecosystem
 
@@ -211,11 +216,19 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
   - Symphony
   - Code Igniter
 - Java
+  - Play
   - Spring
     - Spring Boot
 - Kotlin
 - Python
+  - Flask
+  - ...
+- Ruby
+  - Sinatra
+  - ...
 - Golang
+  - Gin
+  - ...
 - Haskell
 - Rust
 - Elixir
@@ -223,6 +236,7 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 - C++
 - C#
 - Objective-C
+- Swift
 
 ### Web Full Stack or Hybrid
 
@@ -297,7 +311,6 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 - IaaS (Infrastructure as a Service)
   - Google Cloud Platform (GCP)
   - Amazon Web Services (AWS)
-    - EC2
   - Microsoft Azure
   - Alibaba Cloud
 - PaaS (Platform as a Service)
@@ -406,10 +419,12 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 
 ### PHP
 
-- ...
+- Composer
 
 ### Java
 
+- Maven
+- Gradle
 - ...
 
 ### Kotlin
@@ -418,6 +433,7 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 
 ### Scala
 
+- sbt
 - Apache Spark
 - ...
 
@@ -455,6 +471,10 @@ Want to contribute or update things? [Fork this repo](https://github.com/catamys
 - ...
 
 ### Objective-C
+
+- ...
+
+### Swift
 
 - ...
 
