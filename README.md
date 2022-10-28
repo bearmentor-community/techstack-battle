@@ -11,7 +11,7 @@ Tech Stack Battle (Perbandingan Tech Stack).
 
 ## Contribute
 
-Want to contribute or update things? Open a [Pull Request](https://github.com/catamyst-community/techstack-battle/compare).
+Want to contribute or update things? [Fork this repo](https://github.com/catamyst-community/techstack-battle/fork) and open a [Pull Request](https://github.com/catamyst-community/techstack-battle/compare).
 
 ## Table of Contents
 
