@@ -284,7 +284,11 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
   - ...
 - Golang
   - Gin
+  - Fiber
   - Echo
+  - Chi
+  - Beego
+  - HttpRouter
   - Revel
   - ...
 - Haskell
