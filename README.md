@@ -266,12 +266,18 @@ Bootcamp "Menguasai Frontend Web Development": <http://catamyst.codepolitan.com>
   - CakePHP
   - Flight
 - Java
+  - Micronaut
+  - Spark Java
+  - Ktor
+  - Javalin
+  - ...
 - Kotlin
   - Ktor
   - Javalin
 - Python
   - FastAPI
   - Flask
+  - Tornado
   - ...
 - Ruby
   - Sinatra
